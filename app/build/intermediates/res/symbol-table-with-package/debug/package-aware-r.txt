@@ -1152,12 +1152,13 @@ id btnAnuncios
 id btnCadastrar
 id btnCancelar
 id btnEntrar
+id btnExcluirAnuncio
 id btnLimpar
 id btnLogin
 id btnRegistrar
 id btnRegistrarNovo
 id btnTirarFoto
-id btnVoltar
+id btnVoltar2
 id buttonPanel
 id center
 id center_horizontal
@@ -1237,6 +1238,7 @@ id listMode
 id list_item
 id logo
 id lv_carros
+id lv_usercarros
 id masked
 id message
 id middle
@@ -1347,6 +1349,7 @@ id txtMarca
 id txtModelo
 id txtPreco
 id txtRota
+id txtRota2
 id txtSenha
 id txtSenha2
 id txtTirarFoto
@@ -1359,6 +1362,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id username
 id valor
 id view_offset_helper
 id visible
@@ -1423,6 +1427,7 @@ layout activity_anuncio
 layout activity_cadastro
 layout activity_cadastro_anuncio
 layout activity_catalogo
+layout activity_excluir_anuncio
 layout activity_login
 layout activity_main
 layout activity_rotas

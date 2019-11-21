@@ -1,7 +1,18 @@
 package com.example.autobuydm;
 
 class Anuncio {
-    String marca, modelo;
+    String marca;
+    String modelo;
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    String usuario;
     Double preco;
     byte[] foto;
 

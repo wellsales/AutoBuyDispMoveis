@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.autobuydm.R;
@@ -25,6 +26,8 @@ public class CadastroAnuncio extends AppCompatActivity {
     private final int TIRAR_FOTO = 1;
     private DBHelper db = new DBHelper(this);
     private String CaminhoFoto;
+    private String username;
+    private TextView txtusername;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,18 +36,10 @@ public class CadastroAnuncio extends AppCompatActivity {
 
       db = new DBHelper(this);
         Intent it = getIntent();
-        /*  String username = it.getStringExtra("username");
-        Cursor cursor = db.SelectByUsernameUsuario(username);
-        cursor.moveToFirst();
-        if (cursor != null){
-            Toast.makeText(this, cursor.getString(cursor.getColumnIndex("username")), Toast.LENGTH_SHORT).show();
+          username = it.getStringExtra("username");
 
-        }
-        else {
-            Toast.makeText(this, "nnnnnnn", Toast.LENGTH_SHORT).show();
-        }
 
-       */
+
 
         edtMarca = findViewById(R.id.edtMarca);
         edtModelo = findViewById(R.id.edtModelo);
@@ -52,7 +47,8 @@ public class CadastroAnuncio extends AppCompatActivity {
         imgFoto = findViewById(R.id.imgFoto);
         btnCadastrar = findViewById(R.id.btnCadastrar);
         btnTirarFoto = findViewById(R.id.btnTirarFoto);
-
+        txtusername = findViewById(R.id.username);
+        txtusername.setText(username);
 
 
         btnTirarFoto.setOnClickListener(new View.OnClickListener() {
@@ -90,14 +86,16 @@ public class CadastroAnuncio extends AppCompatActivity {
                 anuncio.setModelo(edtModelo.getText().toString());
                 anuncio.setPreco(Double.parseDouble(edtPreco.getText().toString()));
                 anuncio.setFoto(imgBytes);
+                anuncio.setUsuario(username);
+
                 //Por no bd enviando somente a instancia de Anuncio
                 long sucesso = db.criarAnuncio(anuncio);
 
                 if(sucesso != 0){
-                    Toast.makeText(CadastroAnuncio.this, anuncio.getModelo(), Toast.LENGTH_SHORT).show();
 
                     Intent it = new Intent(CadastroAnuncio.this, AnuncioActivity.class);
                     it.putExtra("modelo", edtModelo.getText().toString());
+                    it.putExtra("username",username);
                     startActivity(it);
                 }
                 else{
@@ -106,6 +104,7 @@ public class CadastroAnuncio extends AppCompatActivity {
 
             }
         });
+
     }
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent it){

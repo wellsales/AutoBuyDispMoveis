@@ -23,7 +23,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String str = "CREATE TABLE Usuario(username TEXT PRIMARY KEY, senha TEXT);";
         db.execSQL(str);
-        String anuncio = "CREATE TABLE Anuncio(modelo TEXT PRIMARY KEY, marca TEXT, preco NUMBER, foto BLOB);";
+        String anuncio = "CREATE TABLE Anuncio(modelo TEXT PRIMARY KEY, marca TEXT, preco NUMBER, foto BLOB, cliente TEXT);";
         db.execSQL(anuncio);
     }
 
@@ -85,6 +85,7 @@ public class DBHelper extends SQLiteOpenHelper {
         cv.put("modelo", anuncio.getModelo());
         cv.put("preco", anuncio.getPreco());
         cv.put("foto", anuncio.getFoto());
+        cv.put("cliente", anuncio.getUsuario());
         long result = db.insert("Anuncio", null, cv);
         return result;
     }
@@ -102,5 +103,10 @@ public class DBHelper extends SQLiteOpenHelper {
     public Cursor SelectByAnuncio(String modelo) {
         SQLiteDatabase db = getReadableDatabase();
         return db.rawQuery("SELECT * FROM Anuncio WHERE modelo=?", new String[]{modelo});
+    }
+
+    public Cursor SelectByUsuario(String cliente) {
+        SQLiteDatabase db = getReadableDatabase();
+        return db.rawQuery("SELECT * FROM Anuncio WHERE cliente=?", new String[]{cliente});
     }
 }

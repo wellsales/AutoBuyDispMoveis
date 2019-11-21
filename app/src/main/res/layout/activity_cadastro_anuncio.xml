@@ -9,6 +9,18 @@
     tools:layout_editor_absoluteX="8dp"
     tools:layout_editor_absoluteY="52dp">
 
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/audiowide"
+        android:text="USERNAME"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
     <TextView
         android:id="@+id/txtTirarFoto"
         android:layout_width="wrap_content"
@@ -80,11 +92,13 @@
         android:id="@+id/linearLayout2"
         android:layout_width="295dp"
         android:layout_height="247dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="8dp"
         android:gravity="center_vertical"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:layout_editor_absoluteX="20dp">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
 
         <TextView
             android:id="@+id/txtMarca"

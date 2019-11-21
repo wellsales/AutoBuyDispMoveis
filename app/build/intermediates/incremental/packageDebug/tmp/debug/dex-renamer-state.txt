@@ -1,4 +1,4 @@
-#Thu Nov 21 14:34:40 AMST 2019
-base.0=C\:\\Users\\WeLL\\Desktop\\dispmoveis\\AutobuyDM\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Thu Nov 21 18:38:06 GMT-04:00 2019
+base.0=C\:\\Users\\user\\AndroidStudioProjects\\AutoBuyDispMoveis\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

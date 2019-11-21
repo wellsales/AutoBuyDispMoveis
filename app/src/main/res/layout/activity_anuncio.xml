@@ -39,7 +39,7 @@
         android:id="@+id/txttitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="56dp"
         android:text="Aqui está o seu Anúncio"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
@@ -97,7 +97,7 @@
         android:layout_marginStart="52dp"
 
         android:layout_marginLeft="52dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:text="Modelo:"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
@@ -118,7 +118,7 @@
         app:srcCompat="@drawable/logo" />
 
     <Button
-        android:id="@+id/btnVoltar"
+        android:id="@+id/btnExcluirAnuncio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="164dp"
@@ -132,5 +132,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="304dp"
+        android:layout_marginLeft="304dp"
+        android:layout_marginTop="16dp"
+        android:text="Usuario"
+        android:textColor="#FFFFFF"
+        app:fontFamily="@font/audiowide"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textAllCaps="true" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

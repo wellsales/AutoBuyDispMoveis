@@ -13,10 +13,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.autobuydm.R;
-
 public class AnuncioActivity extends AppCompatActivity {
-    TextView txtMarca, txtModelo, txtPreco;
+    TextView txtMarca, txtModelo, txtPreco, txtusername;
     ImageView imgView;
     Button btnVoltar;
     DBHelper db;
@@ -27,12 +25,18 @@ public class AnuncioActivity extends AppCompatActivity {
         setContentView(R.layout.activity_anuncio);
 
         Intent it = getIntent();
+        final String name = it.getStringExtra("username");
 
         txtMarca = findViewById(R.id.txtMarca);
         txtModelo = findViewById(R.id.txtModelo);
         txtPreco = findViewById(R.id.txtPreco);
         imgView = findViewById(R.id.imageView);
-        btnVoltar = findViewById(R.id.btnVoltar);
+        btnVoltar = findViewById(R.id.btnExcluirAnuncio);
+        txtusername = findViewById(R.id.username);
+        txtusername.setText(name);
+
+
+
 
         db = new DBHelper(this);
 
@@ -51,7 +55,8 @@ public class AnuncioActivity extends AppCompatActivity {
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(AnuncioActivity.this, RotasActivity.class);
+                Intent it = new Intent(AnuncioActivity.this, CatalogoActivity.class);
+                it.putExtra("username", name);
                 startActivity(it);
             }
         });
