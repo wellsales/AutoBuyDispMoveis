@@ -23,11 +23,6 @@ public class RotasActivity extends AppCompatActivity {
         btnAnunciar = findViewById(R.id.btnAnunciar);
         btnVoltar = findViewById(R.id.btnVoltar);
 
-        Intent it = getIntent();
-        db = new DBHelper(this);
-        String username = it.getStringExtra("username");
-        Cursor cursor = db.SelectByUsernameUsuario(username);
-        cursor.moveToFirst();
 
 
         btnAnuncios.setOnClickListener(new View.OnClickListener() {

@@ -11,13 +11,41 @@
         android:id="@+id/txtMarca"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="171dp"
-        android:layout_marginLeft="171dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
         android:text="@string/marca"
         android:textAllCaps="true"
-        android:textColor="#C4FFFFFF"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtmarcatitulo"
+        app:layout_constraintStart_toEndOf="@+id/txtmarcatitulo" />
+
+    <TextView
+        android:id="@+id/txtmarcatitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="20dp"
+        android:text="Marca:"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:fontFamily="@font/audiowide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulo" />
+
+    <TextView
+        android:id="@+id/txttitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Aqui está o seu Anúncio"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:fontFamily="@font/audiowide"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,46 +53,84 @@
         android:id="@+id/txtPreco"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="31dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
         android:text="@string/preco"
         android:textAllCaps="true"
-        android:textColor="#C4FFFFFF"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/txtModelo" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/textprecotitulo"
+        app:layout_constraintStart_toEndOf="@+id/textprecotitulo" />
+
+    <TextView
+        android:id="@+id/textprecotitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="36dp"
+        android:text="Preço:"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:fontFamily="@font/audiowide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtmodelotitulo" />
 
     <TextView
         android:id="@+id/txtModelo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:text="@string/modelo"
         android:textAllCaps="true"
-        android:textColor="#C4FFFFFF"
+        android:textColor="#FFFFFF"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/txtPreco"
-        app:layout_constraintStart_toStartOf="@+id/txtMarca" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtmodelotitulo"
+        app:layout_constraintStart_toEndOf="@+id/txtmodelotitulo" />
+
+    <TextView
+        android:id="@+id/txtmodelotitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="28dp"
+        android:text="Modelo:"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:fontFamily="@font/audiowide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtmarcatitulo" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="140dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textprecotitulo"
         app:srcCompat="@drawable/logo" />
 
     <Button
         android:id="@+id/btnVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="58dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="52dp"
         android:background="@drawable/botoes"
         android:text="@string/voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

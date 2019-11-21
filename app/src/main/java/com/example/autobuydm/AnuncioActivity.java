@@ -51,7 +51,7 @@ public class AnuncioActivity extends AppCompatActivity {
         btnVoltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent it = new Intent(AnuncioActivity.this, CatalogoActivity.class);
+                Intent it = new Intent(AnuncioActivity.this, RotasActivity.class);
                 startActivity(it);
             }
         });

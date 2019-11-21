@@ -31,9 +31,9 @@ public class CadastroAnuncio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cadastro_anuncio);
 
-        db = new DBHelper(this);
+      db = new DBHelper(this);
         Intent it = getIntent();
-        String username = it.getStringExtra("username");
+        /*  String username = it.getStringExtra("username");
         Cursor cursor = db.SelectByUsernameUsuario(username);
         cursor.moveToFirst();
         if (cursor != null){
@@ -43,6 +43,8 @@ public class CadastroAnuncio extends AppCompatActivity {
         else {
             Toast.makeText(this, "nnnnnnn", Toast.LENGTH_SHORT).show();
         }
+
+       */
 
         edtMarca = findViewById(R.id.edtMarca);
         edtModelo = findViewById(R.id.edtModelo);
