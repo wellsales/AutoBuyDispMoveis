@@ -1147,6 +1147,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnAnunciar
+id btnAnuncios
 id btnCadastrar
 id btnCancelar
 id btnEntrar
@@ -1343,6 +1345,7 @@ id transition_transform
 id txtMarca
 id txtModelo
 id txtPreco
+id txtRota
 id txtSenha
 id txtSenha2
 id txtTirarFoto
@@ -1418,6 +1421,7 @@ layout activity_cadastro_anuncio
 layout activity_catalogo
 layout activity_login
 layout activity_main
+layout activity_rotas
 layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1478,6 +1482,8 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string botao_rota_Anunciar
+string botao_rota_VerAnuncios
 string bottom_sheet_behavior
 string cadastrar
 string cancelar
@@ -1508,6 +1514,7 @@ string senha
 string status_bar_notification_info_overflow
 string titulo_cadastro
 string titulo_cadastro_anuncio
+string txt_rota
 string username
 string usuario
 string voltar

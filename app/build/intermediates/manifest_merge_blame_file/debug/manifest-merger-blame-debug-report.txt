@@ -11,17 +11,17 @@
 9-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:6:5-64
+11-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:6:5-65
 11-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:6:22-62
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:7:5-80
+12-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:7:5-81
 12-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:7:22-78
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:8:5-80
 13-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:8:22-77
 14
 15    <application
-15-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:10:5-52:19
+15-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:10:5-51:19
 16        android:allowBackup="true"
 16-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:11:9-35
 17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -38,77 +38,70 @@
 23        android:testOnly="true"
 24        android:theme="@style/AppTheme" >
 24-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:16:9-40
-25        <activity android:name="com.example.autobuydm.MainActivity" >
-25-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:17:9-23:20
-25-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:17:19-68
-26            <intent-filter>
-26-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:18:13-22:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:19:17-69
-27-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:19:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:21:17-77
-29-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:21:27-74
-30            </intent-filter>
-31        </activity>
-32        <activity
-32-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:24:9-32:20
-33            android:name="com.example.autobuydm.SplashActivity"
-33-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:25:13-64
-34            android:label="@string/app_name" >
-34-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:26:13-45
-35            <intent-filter>
-35-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:18:13-22:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:19:17-69
-36-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:19:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:21:17-77
-38-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:21:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity android:name="com.example.autobuydm.AnuncioActivity" />
-41-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:33:9-34:48
-41-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:33:19-71
-42        <activity android:name="com.example.autobuydm.CadastroActivity" />
-42-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:35:9-75
-42-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:35:19-72
-43        <activity android:name="com.example.autobuydm.CadastroAnuncio" />
-43-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:36:9-73
-43-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:36:19-71
-44        <activity android:name="com.example.autobuydm.CatalogoActivity" />
-44-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:37:9-74
-44-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:37:19-72
-45        <activity android:name="com.example.autobuydm.LoginActivity" />
-45-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:38:9-72
-45-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:38:19-69
-46
-47        <provider
-47-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:39:9-48:20
-48            android:name="androidx.core.content.FileProvider"
-48-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:41:13-62
-49            android:authorities="com.example.android.fileprovider"
-49-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:40:13-67
-50            android:exported="false"
-50-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:42:13-37
-51            android:grantUriPermissions="true" >
-51-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:43:13-47
-52            <meta-data
-52-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:44:13-46:53
-53                android:name="android.support.FILE_PROVIDER_PATHS"
-53-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:45:17-67
-54                android:resource="@xml/file_paths" />
-54-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:46:17-51
-55        </provider>
-56
-57        <meta-data
-57-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:49:9-51:57
-58            android:name="preloaded_fonts"
-58-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:50:13-43
-59            android:resource="@array/preloaded_fonts" />
-59-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:51:13-54
-60    </application>
-61
-62</manifest>
+25        <activity android:name="com.example.autobuydm.RotasActivity" />
+25-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:17:9-60
+25-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:17:19-48
+26        <activity android:name="com.example.autobuydm.MainActivity" >
+26-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:18:9-20:20
+26-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:18:19-47
+27        </activity>
+28        <activity
+28-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:21:9-29:20
+29            android:name="com.example.autobuydm.SplashActivity"
+29-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:22:13-43
+30            android:label="@string/app_name" >
+30-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:23:13-45
+31            <intent-filter>
+31-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:24:13-28:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:25:17-69
+32-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:25:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:27:17-77
+34-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:27:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.example.autobuydm.AnuncioActivity" />
+37-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:30:9-32:48
+37-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:31:13-44
+38        <activity android:name="com.example.autobuydm.CadastroActivity" />
+38-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:33:9-54
+38-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:33:19-51
+39        <activity android:name="com.example.autobuydm.CadastroAnuncio" />
+39-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:34:9-53
+39-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:34:19-50
+40        <activity android:name="com.example.autobuydm.CatalogoActivity" />
+40-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:35:9-54
+40-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:35:19-51
+41        <activity android:name="com.example.autobuydm.LoginActivity" />
+41-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:36:9-51
+41-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:36:19-48
+42
+43        <provider
+43-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:38:9-46:20
+44            android:name="androidx.core.content.FileProvider"
+44-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:39:13-62
+45            android:authorities="com.example.android.fileprovider"
+45-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:40:13-67
+46            android:exported="false"
+46-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:41:13-37
+47            android:grantUriPermissions="true" >
+47-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:42:13-47
+48            <meta-data
+48-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:43:13-45:54
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:44:17-67
+50                android:resource="@xml/file_paths" />
+50-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:45:17-51
+51        </provider>
+52
+53        <meta-data
+53-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:48:9-50:57
+54            android:name="preloaded_fonts"
+54-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:49:13-43
+55            android:resource="@array/preloaded_fonts" />
+55-->C:\Users\WeLL\Desktop\dispmoveis\AutobuyDM\app\src\main\AndroidManifest.xml:50:13-54
+56    </application>
+57
+58</manifest>

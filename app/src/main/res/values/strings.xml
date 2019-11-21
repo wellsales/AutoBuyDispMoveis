@@ -19,4 +19,7 @@
     <string name="modelo" translatable="false">Modelo </string>
     <string name="titulo_cadastro">Cadastro de usuário</string>
     <string name="titulo_cadastro_anuncio">Anuncie seu carro aqui</string>
+    <string name="txt_rota">O QUE DESEJA FAZER?</string>
+    <string name="botao_rota_VerAnuncios">Ver Anuncios</string>
+    <string name="botao_rota_Anunciar">Anunciar</string>
 </resources>

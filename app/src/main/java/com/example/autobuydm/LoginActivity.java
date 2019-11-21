@@ -1,8 +1,10 @@
 package com.example.autobuydm;
 
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -49,9 +51,10 @@ public class LoginActivity extends AppCompatActivity {
 
                     if(res.equals("OK")) {
                         Toast.makeText(LoginActivity.this, "Login OK", Toast.LENGTH_SHORT).show();
-                        Intent it = new Intent(LoginActivity.this, CadastroAnuncio.class);
+                        Intent it = new Intent(LoginActivity.this, RotasActivity.class);
                         it.putExtra("username", username);
                         startActivity(it);
+
                     }else {
                         Toast.makeText(LoginActivity.this, "Login errado, tente novamente", Toast.LENGTH_SHORT).show();
 
@@ -61,6 +64,9 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
+
+
+
 
         btnCancelar.setOnClickListener(new View.OnClickListener() {
             @Override
