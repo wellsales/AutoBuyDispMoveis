@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">AutoBuy</string>
+    <string name="cadastrar" translatable="false">Cadastrar</string>
+    <string name="sair" translatable="false">Sair</string>
+    <string name="logo" translatable="false">LOGO</string>
+    <string name="entrar" translatable="false">Entrar</string>
+    <string name="usuario" translatable="false">Usuario</string>
+    <string name="username" translatable="false">Usuario</string>
+    <string name="senha" translatable="false">Senha</string>
+    <string name="repete_senha" translatable="false">Repete Senha</string>
+    <string name="cancelar" translatable="false">Voltar</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="limpar" translatable="false">Limpar</string>
+    <string name="registrar" translatable="false">Registrar</string>
+    <string name="registrarnovo" translatable="false">Registrar</string>
+    <string name="voltar" translatable="false">Voltar</string>
+    <string name="marca" translatable="false">Marca </string>
+    <string name="preco" translatable="false">Preço </string>
+    <string name="modelo" translatable="false">Modelo </string>
+    <string name="titulo_cadastro">Cadastro de usuário</string>
+    <string name="titulo_cadastro_anuncio">Anuncie seu carro aqui</string>
+</resources>

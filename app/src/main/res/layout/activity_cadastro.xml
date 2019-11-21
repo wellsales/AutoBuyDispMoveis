@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F"
+    tools:context="com.example.autobuydm.CadastroActivity">
+
+
+    <EditText
+        android:id="@+id/edtCadastraUsuario"
+        android:layout_width="190dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:autofillHints="Username"
+        android:background="@drawable/edittext"
+        android:cursorVisible="true"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textColor="#000000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtUsuario"
+        app:layout_constraintStart_toEndOf="@+id/txtUsuario"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/edtCadastraSenha"
+        android:layout_width="190dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:background="@drawable/edittext"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtSenha"
+        app:layout_constraintStart_toEndOf="@+id/txtSenha" />
+
+    <TextView
+        android:id="@+id/txtSenha2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="63dp"
+        android:cursorVisible="true"
+        android:text="@string/repete_senha"
+        android:textAllCaps="true"
+        android:textColor="#FCFFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSenha" />
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="156dp"
+        android:text="@string/usuario"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtCadastraSenha2"
+        android:layout_width="190dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:hint="@string/repete_senha"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtSenha2"
+        app:layout_constraintStart_toEndOf="@+id/txtSenha2" />
+
+    <TextView
+        android:id="@+id/txtSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/senha"
+        android:textAllCaps="true"
+        android:textColor="#F7F2F7"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUsuario" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/titulo_cadastro"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/audiowide"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="361dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="96dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/edtCadastraSenha2"
+        tools:layout_editor_absoluteX="16dp">
+
+        <Button
+            android:id="@+id/btnRegistrarNovo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:background="@drawable/botoes"
+            android:padding="10dp"
+            android:text="@string/registrarnovo"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:background="@drawable/botoes"
+            android:text="@string/limpar"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/botoes"
+            android:text="@string/cancelar"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
