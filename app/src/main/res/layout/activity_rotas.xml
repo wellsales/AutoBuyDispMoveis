@@ -28,7 +28,6 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="256dp"
         android:background="@drawable/botoes"
-        android:onClick="telaCadastroAnuncio"
         android:padding="5dp"
         android:text="@string/botao_rota_Anunciar"
         app:layout_constraintStart_toStartOf="@+id/btnAnuncios"

@@ -1330,6 +1330,7 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id textprecotitulo
 id time
 id title
 id titleDividerNoCustom
@@ -1350,6 +1351,9 @@ id txtSenha
 id txtSenha2
 id txtTirarFoto
 id txtUsuario
+id txtmarcatitulo
+id txtmodelotitulo
+id txttitulo
 id unchecked
 id uniform
 id unlabeled

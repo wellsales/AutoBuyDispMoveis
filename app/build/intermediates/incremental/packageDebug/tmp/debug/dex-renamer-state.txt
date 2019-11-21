@@ -1,4 +1,4 @@
-#Wed Nov 20 23:12:22 AMST 2019
+#Thu Nov 21 14:34:40 AMST 2019
 base.0=C\:\\Users\\WeLL\\Desktop\\dispmoveis\\AutobuyDM\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
